@@ -25,6 +25,7 @@ class Calculadora:
     def dividir(self, numero1, numero2):
         # Recibe 2 valores, los divide y los almacena en resultados.
         try:
+            #
             resultado = numero1 / numero2
             # Imprime el texto Resultado y el valor de la variable resultado.
             return resultado
