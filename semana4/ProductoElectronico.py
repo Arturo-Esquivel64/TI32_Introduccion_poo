@@ -25,9 +25,9 @@ class ProductoElectronico:
         print(f"Garantia: {self.mesesGarantia}")
 
 Producto1 = ProductoElectronico("Microondas",6000.00,"Mabe")
-Producto1.cambiar(6)
+Producto1.cambiarGarantia(6)
 Producto1.precioDescuento(10)
 Producto1.detalles()
 Producto2 = ProductoElectronico("Refrigerador",10000,"Mabe")
-Producto2 = precioDescuento(20)
-Producto2 = detalles()
+Producto2.precioDescuento(20)
+Producto2.detalles()
